@@ -9,10 +9,9 @@ Full Name: {{firstName + " " + lastName}}
 </div>
 
 <script>
-var app = angular.module('Demo', []);
-app.controller('myCtrl', function($scope) {
-    $scope.firstName= "John";
-    $scope.lastName= "Doe";
+angular.module("Demo", []).controller("myCtrl", function($scope) {
+    $scope.firstName = "John";
+    $scope.lastName = "Doe";
 });
 </script> 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
